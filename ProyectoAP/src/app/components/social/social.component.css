@@ -1,0 +1,19 @@
+img{
+    width: 40px;
+    filter: brightness(10%);
+}
+#linkedin{
+    margin-right: 5px;
+}
+#instagram{
+    margin-right: 5px;
+}
+#twitter{
+    margin-right: 5px;
+}
+#facebook{
+    margin-right: 5px;
+}
+#github{
+    margin-right: 5px;
+}
