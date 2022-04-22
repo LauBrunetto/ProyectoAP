@@ -1,0 +1,51 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: #EDF7FA ;
+}
+#info1{
+    text-align: left;
+}
+#acercade{
+    border-left:2px solid #3EC6F1;
+    margin-top: 30px;
+    
+}
+h1{
+    color:black;
+    text-align: center;
+}
+#acercadep{
+    text-align:justify;
+    margin-top: 20px;
+}
+
+#nombre{
+    font-weight: bold;
+    font-size: 30px;
+}
+#estudio{
+    margin-top: -10px;
+}
+@media (min-width: 576px){
+ #fotodeperfil{
+     position: absolute;
+     width: 18%;
+     border-radius: 100%;
+     box-shadow: 3px 3px 3px gray;
+     left: 4%;
+     top: 460px;
+ }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 29%;
+        top: 330px;
+    }
+   }
