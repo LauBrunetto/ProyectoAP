@@ -1,4 +1,6 @@
-
+div{
+    background-color: white;
+}
 li{
     list-style: none;
 }
@@ -9,35 +11,40 @@ li{
 }
 
 #info{
-    margin-top: 45px;
+    margin-top: 30px;
     border-bottom: 1px solid #E0E0E0;
-}
-#nombreE{
-    display: inline;
-    
+    margin-bottom:20px ;
 }
 #relleno{
-    position: absolute;
     background-color: #142850;
-    width: 60px;
-    height: 25px;
+    width: 50px;
+    height: 10px;
     border-radius: 16px;
-    margin-left: 30px;
-    margin-top: 10px;
+    padding: px;
 }
-h3{
+#año{
     display: inline;
     color:white;
-    font-size: 20px;
-    margin-left: 11px;
+    font-size: 17px;
+    margin: 10px;
+    margin-top: 20px;
     
+}
+#tituloE{
+    font-size: 20px;
+    margin: 12px;
+    margin-top: 20px;
+
 }
 p{
-    margin-top: 30px;
+    margin-top: 20px;
 }
-
 img{
-    margin-left: 130px;
-    margin-top: 60px;
+   
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    
     
 }
+

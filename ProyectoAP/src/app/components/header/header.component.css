@@ -1,14 +1,6 @@
+
 #div1 {
     background-color:#3EC6F1;
-    height: 90px;
-}
-
-app-social{
-    float: right;
-    margin-top: 25px;  
-}
-#social{
-    margin-right: 5%;
 }
 
 /* BOTON */
@@ -17,21 +9,52 @@ a{
 }
 
 #boton{
-    position: absolute;
+    float: right;
+    margin-top: 20px;
     width: 90px;
     height: 45px;
-    left: 88%;
-    top: 23px;
     background: black;
     border-radius: 50px;
-}
-
-#login{
-    text-align: center;
     font-size:130%;
-    margin-top: 5%;
     color: #FFFFFF;
 }
+
 #banner{
     width: 100%;
 }
+@media (max-width: 575px){
+    #social{
+        float: left;
+        margin: -20px -37px 0px;
+        
+        
+    }
+   }
+   
+   @media (max-width: 575px){
+    #boton{
+        margin: -120px 0px 10px -7px;
+        float:right;
+        
+
+    }
+    
+   }
+   @media (max-width: 319px){
+    #boton{
+        margin: -10px 0px 10px -7px;
+        float:left;
+        
+
+    }
+    
+   }
+   /*
+   @media (max-width: 575px){
+    #logo{
+        
+        margin-left: 20px;
+        
+
+    }
+   }*/

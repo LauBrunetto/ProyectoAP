@@ -46,6 +46,27 @@ h1{
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 29%;
-        top: 330px;
+        top: 360px;
     }
    }
+   @media (max-width: 370px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 29%;
+        top: 440px;
+    }
+   }
+   @media (max-width: 316px){
+    #fotodeperfil{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 29%;
+        top: 500px;
+    }
+   }
+
